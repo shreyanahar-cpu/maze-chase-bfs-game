@@ -80,4 +80,4 @@ The objective is to demonstrate how pathfinding algorithms and data structures c
 
 ## 👩‍💻 Author
 
-Add your name and project details here.
+Shreya Nahar
