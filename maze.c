@@ -108,7 +108,11 @@ void loadLevel(int level, struct Player *p,
 /* Display the maze, player, enemies and score */
 void printMaze(struct Player p, struct Enemy enemies[],
                int enemyCount, int level) {
+    #ifdef _WIN32
     system("cls");
+#else
+    system("clear");
+#endif
 
     printf("           MAZE CHASE\n");
 
